@@ -17,7 +17,9 @@ if __name__ == "__main__":
             pb_sender(text, temp)
             time.sleep(30)
         elif float(temp) < 68:
-            time.sleep(30)
+            text = "dupa"
+            pb_sender(text, temp)
+            time.sleep(5)
             continue
         else:
             text = "Wystapił jakis błąd"
